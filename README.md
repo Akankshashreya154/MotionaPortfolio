@@ -125,6 +125,36 @@ Vercel
 
 Netlify
 
+#HOME_PAGE
+
+<img width="1887" height="881" alt="image" src="https://github.com/user-attachments/assets/adb38d00-5a10-4fcb-88d4-d91646add722" />
+
+#ABOUT
+<img width="1882" height="860" alt="image" src="https://github.com/user-attachments/assets/fa1f4094-9343-4d23-b79e-8c506e0b15a1" />
+
+#SKILLS
+<img width="1907" height="417" alt="image" src="https://github.com/user-attachments/assets/10e937b6-cdde-4079-bb11-45241b45b5d6" />
+
+#PROJECTS
+
+#EXPERIENCES
+<img width="1882" height="850" alt="image" src="https://github.com/user-attachments/assets/dc61f2b5-a839-4759-9d8d-15b88620f4cc" />
+
+#TESTIMONIALS
+<img width="1863" height="855" alt="image" src="https://github.com/user-attachments/assets/781e2f4c-a413-4b68-a947-28ab2702d8a2" />
+
+#CONTACT
+<img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/52016d28-803e-4ddd-be79-f7b9427b2070" />
+
+#ABOUT
+<img width="1900" height="890" alt="image" src="https://github.com/user-attachments/assets/b76e5bad-c89c-46ba-8b01-a38ece19f305" />
+
+
+
+
+
+
+
 GitHub Pages
 
 
