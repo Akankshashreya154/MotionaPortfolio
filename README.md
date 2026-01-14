@@ -1,4 +1,4 @@
-#**Framer Motion Portfolio Website** 
+**Framer Motion Portfolio Website** 
 
 A modern, responsive personal portfolio built using React and Vite, showcasing projects, skills, and experience with smooth animations and a clean user interface. The application includes an interactive contact form powered by EmailJS for real-time communication.
 🚀 Tech Stack
@@ -17,7 +17,7 @@ EmailJS – Contact form email integration
 
 React Icons – Icon library
 
-✨ ##**Features**
+✨ **Features**
 
 Fully responsive design across all devices
 
@@ -31,7 +31,7 @@ Social media integration with animated icons
 
 Clean and modern user experience
 
-📂 ###Project Folder Structure
+📂 Project Folder Structure
 portfolio/
 ├── public/
 │   ├── favicon.ico
@@ -68,19 +68,19 @@ portfolio/
 ├── vite.config.js
 └── README.md
 
-⚙️ ####**Installation & Setup**
+⚙️ **Installation & Setup**
 
 npm create vite@latest portfolio
 cd portfolio
 
-#####**Install dependencies**
+**Install dependencies**
 npm install
 then,
 npm install tailwindcss @tailwindcss/vite
 npm run dev/npm run
 
 
-######**Configure environment variables**
+###### **Configure environment variables**
 Create a .env file in the root directory:
 
 VITE_SERVICE_ID=your_service_id
@@ -88,11 +88,11 @@ VITE_TEMPLATE_ID=your_template_id
 VITE_PUBLIC_KEY=your_public_key
 
 
-#######**Run the development server**
+**Run the development server**
 
 npm run dev
 
-📧######## **EmailJS Configuration**
+📧 **EmailJS Configuration**
 
 Create an account on EmailJS
 
@@ -109,7 +109,7 @@ Create an email template with variables:
 
 Add your EmailJS credentials to the .env file
 
-🧪 #########**Scripts**
+🧪 **Scripts**
 
 npm run dev – Start development server
 
