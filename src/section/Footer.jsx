@@ -42,27 +42,33 @@ const glowVariants = {
 const Footer = () => {
   return (
     <footer className="relative overflow-hidden bg-black py-10">
-        <div className="pointer-events-none absolute insert-0 bg-[radial-gradient(55%_60%_at_70%_35%,rgba(13,88,202,0.25),transparent_70%)]"></div>
-        <div className="pointer-events-none absolute insert-0 bg-[radial-gradient(50%_55%_at_30%_75%,rgba(16,185,289,0.29),transparent_70%)]"></div>
+      {/* Background ambient gradients */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(55%_60%_at_70%_35%,rgba(13,88,202,0.25),transparent_70%)]"></div>
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(50%_55%_at_30%_75%,rgba(16,185,129,0.25),transparent_70%)]"></div>
+
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="flex flex-col items-center gap-6"
+        className="relative flex flex-col items-center gap-6"
       >
-        <h1
-          className="font-semibold leading-none text-white text-center select-none"
-          style={{
-            fontSize: "clamp(3rem,5vw,14rem)",
-            letterSpacing: "0.02em",
-            lineHeight: 0.9,
-            padding: "0 3vw",
-            whiteSpace: "nowrap",
-            textShadow: "0.2px 18px rgba(0,0,0,0)",
-          }}
-        >
-          Akanksha Shreya
-        </h1>
+        {/* Name with gradient glow behind */}
+        <div className="relative flex items-center justify-center">
+          <div className="absolute inset-0 blur-3xl bg-gradient-to-r from-[#0d58cc]/40 via-cyan-400/40 to-emerald-400/40 rounded-full"></div>
+
+          <h1
+            className="relative font-semibold leading-none text-white text-center select-none"
+            style={{
+              fontSize: "clamp(3rem,5vw,14rem)",
+              letterSpacing: "0.02em",
+              lineHeight: 0.9,
+              padding: "0 3vw",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Akanksha Shreya
+          </h1>
+        </div>
 
         <div className="h-[3px] w-24 md:w-32 rounded-full bg-gradient-to-r from-[#0d58cc] via-cyan-300 to-emerald-400" />
 
@@ -90,7 +96,7 @@ const Footer = () => {
         </p>
 
         <p className="text-gray-400 text-sm text-center">
-          &copy;{new Date().getFullYear()}Akanksha Shreya. All rights reserved.
+          &copy; {new Date().getFullYear()} Akanksha Shreya. All rights reserved.
         </p>
       </motion.div>
     </footer>
