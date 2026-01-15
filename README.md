@@ -136,6 +136,9 @@ Netlify
 <img width="1907" height="417" alt="image" src="https://github.com/user-attachments/assets/10e937b6-cdde-4079-bb11-45241b45b5d6" />
 
 # **PROJECTS**
+<img width="1906" height="962" alt="image" src="https://github.com/user-attachments/assets/087ad2f8-1531-4e2b-ad0f-c3aa8a009a6d" />
+
+<img width="1893" height="952" alt="image" src="https://github.com/user-attachments/assets/caeb751d-2355-46d4-beaa-2998fd5fc791" />
 
 # __EXPERIENCES__
 <img width="1882" height="850" alt="image" src="https://github.com/user-attachments/assets/dc61f2b5-a839-4759-9d8d-15b88620f4cc" />
