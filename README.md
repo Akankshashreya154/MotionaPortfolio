@@ -92,7 +92,7 @@ VITE_PUBLIC_KEY=your_public_key
 
 npm run dev
 
-📧 **EmailJS Configuration**
+# 📧 **EmailJS Configuration**
 
 Create an account on EmailJS
 
@@ -109,7 +109,7 @@ Create an email template with variables:
 
 Add your EmailJS credentials to the .env file
 
-🧪**Scripts**
+# 🧪**Scripts**
 
 npm run dev – Start development server
 
@@ -117,7 +117,7 @@ npm run build – Build for production
 
 npm run preview – Preview production build
 
-🌐 **Deployment**
+# 🌐**Deployment**
 
 This project can be deployed on:
 
@@ -125,7 +125,7 @@ Vercel
 
 Netlify
 
-**# HOME_PAGE**
+# __HOME_PAGE__
 
 <img width="1887" height="881" alt="image" src="https://github.com/user-attachments/assets/adb38d00-5a10-4fcb-88d4-d91646add722" />
 
