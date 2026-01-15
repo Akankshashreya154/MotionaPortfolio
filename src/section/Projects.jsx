@@ -7,8 +7,8 @@ import {
 } from "framer-motion";
 
 // assets
-import img1 from "../assets/img1.JPG";
-import img2 from "../assets/img2.JPG";
+import img4 from "../assets/img4.png";
+import img5 from "../assets/img5.png";
 import img3 from "../assets/img3.JPG";
 import photo1 from "../assets/photo1.JPG";
 import photo2 from "../assets/photo2.png";
@@ -42,16 +42,16 @@ export default function Projects() {
   const projects = useMemo(
     () => [
       {
-        title: "nk studio",
-        link: "https://www.nk.studio/",
+        title: "EmployeeDashboard",
+        link: "https://github.com/Akankshashreya154/EmployeeManagement_Assign",
         bgColor: "#0d4d3d",
-        image: isMobile ? photo1 : img1,
+        image: isMobile ? photo1 : img4,
       },
       {
-        title: "Gamily",
-        link: "https://gamilyapp.com/",
+        title: "Motiona Portfolio Website",
+        link: "https://github.com/Akankshashreya154/MotionaPortfolio",
         bgColor: "#3884d3",
-        image: isMobile ? photo2 : img2,
+        image: isMobile ? photo2 : img5,
       },
       {
         title: "Hungry Tiger",
@@ -123,11 +123,17 @@ export default function Projects() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 30 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
-                    className={`block text-center text-[clamp(2rem,6vw,5rem)]
-                      text-white/95 italic font-semibold
-                      sm:absolute sm:-top-20 sm:left-[35%]
-                      lg:left-[-5%] sm:mb-0
-                      ${isMobile ? "-mt-24" : ""}`}
+                    className={`block text-center ${
+                      project.title === "EmployeeDashboard"
+                        ? "text-[clamp(1.8rem,5vw,4.2rem)]"
+                        : project.title === "Motiona Portfolio Website"
+                        ? "text-[clamp(1.7rem,4.8vw,4rem)]"
+                        : "text-[clamp(2rem,6vw,5rem)]"
+                    }
+                    text-white/95 italic font-semibold
+                    sm:absolute sm:-top-20 sm:left-[35%]
+                    lg:left-[-5%] sm:mb-0
+                    ${isMobile ? "-mt-24" : ""}`}
                     style={{
                       zIndex: 5,
                       textAlign: isMobile ? "center" : "left",
@@ -189,8 +195,8 @@ export default function Projects() {
             href={activeProject?.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-3 font-semibold rounded-lg bg-white text-black  hover:bg-gray-200 transition-all"
-            aria-label={'View ${activeProject?.title}'}
+            className="inline-block px-6 py-3 font-semibold rounded-lg bg-white text-black hover:bg-gray-200 transition-all"
+            aria-label={`View ${activeProject?.title}`}
           >
             View Project
           </a>
