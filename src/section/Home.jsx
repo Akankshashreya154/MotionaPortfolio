@@ -43,7 +43,12 @@ const glowVariants = {
 
 export default function Home() {
   const roles = useMemo(
-    () => ["Web Developer", "Frontend Developer", "React Developer", "Full Stack Developer"],
+    () => [
+      "Web Developer",
+      "Frontend Developer",
+      "React Developer",
+      "Full Stack Developer",
+    ],
     []
   );
 
@@ -77,7 +82,6 @@ export default function Home() {
       {/* Gradient Blobs */}
       <div className="absolute inset-0">
         <div className="absolute -top-32 -left-32 w-[70vw] md:w-[40vw] h-[70vw] md:h-[40vw] max-w-[500px] max-h-[500px] rounded-full bg-gradient-to-r from-[#302b63] via-[#00bfff] to-[#1cd8d2] opacity-30 md:opacity-10 blur-[100px] md:blur-[150px] animate-pulse" />
-
         <div className="absolute bottom-0 right-0 w-[70vw] md:w-[40vw] h-[70vw] md:h-[40vw] max-w-[500px] max-h-[500px] rounded-full bg-gradient-to-r from-[#302b63] via-[#00bfff] to-[#1cd8d2] opacity-30 md:opacity-10 blur-[100px] md:blur-[150px] animate-pulse delay-500" />
       </div>
 
@@ -85,18 +89,14 @@ export default function Home() {
         {/* Left Column */}
         <div className="flex flex-col justify-center h-full text-center lg:text-left">
           <div className="w-full lg:pr-24 mx-auto max-w-[48rem]">
-            <h1 className="text-4xl sm:text-5xl font-bold text-white">Hi, I’m Akanksha</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold text-white">
+              Hi, I’m Akanksha
+            </h1>
 
             <p className="mt-4 text-xl text-pink-400">
               {roles[index].substring(0, subIndex)}
               <span className="animate-pulse">|</span>
             </p>
-
-            <span>{roles[index].substring(0, subIndex)}</span>
-            <span
-              className="inline-block w-[2px] ml-1 bg-white animate-pulse align-middle"
-              style={{ height: "1em" }}
-            />
 
             <motion.h1
               className="mt-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg"
@@ -117,8 +117,9 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              I turn complex ideas into seamless, high-impact web experiences — building modern,
-              scalable and lightning-fast applications that make a difference.
+              I turn complex ideas into seamless, high-impact web experiences —
+              building modern, scalable and lightning-fast applications that make
+              a difference.
             </motion.p>
 
             <motion.div
@@ -134,8 +135,12 @@ export default function Home() {
                 View My Work
               </a>
 
+              {/* ✅ FIXED RESUME LINK */}
               <a
-                href="/Resume.pdf"
+                href="/Resume1.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 rounded-full text-lg text-white border border-white/30 hover:bg-white/10 transition-all"
               >
                 My Resume
@@ -170,10 +175,7 @@ export default function Home() {
             src={avatar}
             alt="Akanksha Shreya"
             className="w-full max-w-md"
-            style={{
-              width: "min(45vw, 780px)",
-              maxHeight: "90vh",
-            }}
+            style={{ width: "min(45vw, 780px)", maxHeight: "90vh" }}
             initial={{ opacity: 0, y: 40, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 0.2, duration: 0.8 }}
