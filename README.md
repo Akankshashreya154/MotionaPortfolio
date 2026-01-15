@@ -1,4 +1,4 @@
-**Framer Motion Portfolio Website** 
+# **Framer Motion Portfolio Website** 
 
 A modern, responsive personal portfolio built using React and Vite, showcasing projects, skills, and experience with smooth animations and a clean user interface. The application includes an interactive contact form powered by EmailJS for real-time communication.
 🚀 Tech Stack
@@ -109,7 +109,7 @@ Create an email template with variables:
 
 Add your EmailJS credentials to the .env file
 
-🧪 **Scripts**
+🧪**Scripts**
 
 npm run dev – Start development server
 
@@ -146,7 +146,7 @@ Netlify
 # __CONTACT__
 <img width="1907" height="877" alt="image" src="https://github.com/user-attachments/assets/52016d28-803e-4ddd-be79-f7b9427b2070" />
 
-#__ABOUT__
+# __ABOUT__
 <img width="1900" height="890" alt="image" src="https://github.com/user-attachments/assets/b76e5bad-c89c-46ba-8b01-a38ece19f305" />
 
 
